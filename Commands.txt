@@ -39,3 +39,10 @@ git diff --staged
 
 //To get entire History
 git log
+
+
+//To create Tag use 
+git tag
+
+git tag -a versionNaming -m "MESSAGE"
+
