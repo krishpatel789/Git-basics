@@ -1,3 +1,5 @@
 This is time to learn git
 
 Hey we are adding new lines in our code
+
+Do something hard
