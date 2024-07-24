@@ -46,3 +46,25 @@ git tag
 
 git tag -a versionNaming -m "MESSAGE"
 
+//BRANCHES
+//To create a branch
+git checkout -b branchName
+
+//TO show all branches
+git branch
+
+//To switch or change branch
+git checkout branchname
+    or
+git switch branchname
+
+//To switch to previous branch 
+git switch -
+
+//To create and switch to branch instantly
+git switch -c branchname
+git checkout -b branchname
+
+//To delete a branch
+git branch -d branchname
+
