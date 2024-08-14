@@ -68,3 +68,17 @@ git checkout -b branchname
 //To delete a branch
 git branch -d branchname
 
+//To visulaize git graph
+git log --graph
+
+//To ignore files automatically
+  create .gitignore file in your working repo
+  add the file names in the .gitignore file
+  //if you want to all files starting with namee
+   namee*
+   //if you want to ignore all file with same type
+    *.txt
+    //if you want to ignore a folder itself(let say folder name is demo),
+    type the below lines in .gitignore
+     demo/
+
